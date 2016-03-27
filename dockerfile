@@ -7,7 +7,8 @@
 # Set the base image
 FROM alpine:3.3
 
-MAINTAINER Nodes <masternodes@yahoo.com>
+MAINTAINER Nodes
+LABEL description="Synereo Docker Image" version="1.0.0"
 
 #============== Set versions and paths ===================
 ENV SYNEREO_JAR splicious
